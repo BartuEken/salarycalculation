@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/IsimBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İsim"/>
+
+    <EditText
+        android:id="@+id/SoyisimBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Soyisim"/>
+
+    <TextView
+        android:id="@+id/MaasMiktarText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personel Maaş : " />
+
+    <Button
+        android:id="@+id/MaasBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hesaplama Sayfasına Git"/>
+
+</LinearLayout>
